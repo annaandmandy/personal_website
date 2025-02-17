@@ -1,0 +1,23 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "This is my profile page, including projects and design works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaandmandy/personal_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaandmandy/personal_website/issues"
+  },
+  "homepage": "https://github.com/annaandmandy/personal_website#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
