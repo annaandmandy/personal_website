@@ -42,7 +42,7 @@ nav ul li a.active {
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-    margin: 0 500px;
+    margin: 0 100px;
 }
 
 .content .brief_intro {
@@ -84,6 +84,14 @@ nav ul li a.active {
 .content .welcome_image {
     flex: 1;
     text-align: right;
+}
+
+.content .welcome_image .img {
+    max-width: 100%;
+    width: "500"; 
+    height: "auto";
+    object-fit: contain;
+    flex-wrap: wrap;     
 }
 
 
