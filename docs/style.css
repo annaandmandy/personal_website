@@ -86,12 +86,6 @@ nav ul li a.active {
     text-align: right;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    flex-wrap: wrap;     
-}
 
 .image-container{
     padding: 10px;
@@ -99,4 +93,12 @@ img{
     justify-content:center;
     align-items: center;
     gap: 20px;
+}
+
+
+.image-container .img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    flex-wrap: wrap;     
 }
