@@ -1,1 +1,3 @@
-console.log("Success!")
+function openPage(website){
+    window.location.href = website;
+}
