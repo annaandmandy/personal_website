@@ -1,12 +1,26 @@
-const express = require("express")
+const express = require('express');
+const path = require('path');
 const app = express();
-const port = 3000;
 
-app.use(express.static("docs"));
-app.get("/", (req, res) => {
-    res.sendFile(__dirname + "docs/index.html");
+// Set EJS as the view engine
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
+// Serve static files (like CSS, JS, images)
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/', (req, res) => {
+  res.render('index', { title: 'Home Page' });  // This will render index.ejs
 });
 
-app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
+app.get('/projects', (req, res) => {
+  res.render('projects', { title: 'My Projects' });  // Render projects.ejs
+});
+
+app.get('/designAR123', (req, res) => {
+  res.render('designAR123', { title: 'Design Artwork' });  // Render designAR123.ejs
+});
+
+app.listen(5000, () => {
+  console.log('Server is running on port 5000');
 });
