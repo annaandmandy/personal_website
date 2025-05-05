@@ -7,7 +7,7 @@ export default function Interests() {
                     <p className="mb-2">I am also interested in drawing and desiging. Here are some of the works.</p>
                     <ul>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/personal_website/gorillacharms">
+                            <a className="nav-link active" aria-current="page" href="/personal_website/gorillacharms/">
                                 Gorilla Charms
                             </a>
                         </li>

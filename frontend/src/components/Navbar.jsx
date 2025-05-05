@@ -33,34 +33,34 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">
+                            <a className="nav-link active" aria-current="page" href="/personal_website/">
                                 Home
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/personal_website/about">
+                            <a className="nav-link" href="/personal_website/about/">
                                 About
                             </a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="/projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="/projects/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Projects
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/personal_website/citale">Citale Website Project</a></li>
-                                <li><a className="dropdown-item" href="/personal_website/ds542">DS542: Deep Learning Project</a></li>
-                                <li><a className="dropdown-item" href="/personal_website/ds598">DS598: Azure Big Data Project</a></li>
-                                <li><a className="dropdown-item" href="/personal_website/ds701">DS701: Data Science Project</a></li>
-                                <li><a className="dropdown-item" href="/personal_website/undergradThesis">Undergrad Thesis</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/citale/">Citale Website Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/ds542/">DS542: Deep Learning Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/ds598/">DS598: Azure Big Data Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/ds701/">DS701: Data Science Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/undergradThesis/">Undergrad Thesis</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/personal_website/interests">
+                            <a className="nav-link" href="/personal_website/interests/">
                                 Interests
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/personal_website/contact">
+                            <a className="nav-link" href="/personal_website/contact/">
                                 Message Board
                             </a>
                         </li>
