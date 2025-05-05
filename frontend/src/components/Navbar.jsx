@@ -5,7 +5,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#fdf5ff" }}>
             <div className="container-fluid">
                 {/* Brand Logo */}
-                <a className="navbar-brand" href="/">
+                <a className="navbar-brand" href="/personal_website/">
                     <img
                         src="icon.png"
                         alt="Logo"
@@ -38,7 +38,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">
+                            <a className="nav-link" href="/personal_website/about">
                                 About
                             </a>
                         </li>
@@ -47,20 +47,20 @@ export default function Navbar() {
                                 Projects
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/citale">Citale Website Project</a></li>
-                                <li><a className="dropdown-item" href="/ds542">DS542: Deep Learning Project</a></li>
-                                <li><a className="dropdown-item" href="/ds598">DS598: Azure Big Data Project</a></li>
-                                <li><a className="dropdown-item" href="/ds701">DS701: Data Science Project</a></li>
-                                <li><a className="dropdown-item" href="/undergradThesis">Undergrad Thesis</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/citale">Citale Website Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/ds542">DS542: Deep Learning Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/ds598">DS598: Azure Big Data Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/ds701">DS701: Data Science Project</a></li>
+                                <li><a className="dropdown-item" href="/personal_website/undergradThesis">Undergrad Thesis</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/interests">
+                            <a className="nav-link" href="/personal_website/interests">
                                 Interests
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact">
+                            <a className="nav-link" href="/personal_website/contact">
                                 Message Board
                             </a>
                         </li>

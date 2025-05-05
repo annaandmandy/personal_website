@@ -18,10 +18,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/interests" element={<Interests />} />
-        <Route path="/gorillacharms" element={<GorillaCharms />} />
+        <Route path="/personal_website/" element={<Home />} />
+        <Route path="/personal_website/projects" element={<Projects />} />
+        <Route path="/personal_website/interests" element={<Interests />} />
+        <Route path="/personal_website/gorillacharms" element={<GorillaCharms />} />
       </Routes>
       <Footer />
     </>
