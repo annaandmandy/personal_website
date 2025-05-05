@@ -7,7 +7,7 @@ export default function Navbar() {
                 {/* Brand Logo */}
                 <a className="navbar-brand" href="/">
                     <img
-                        src="/src/assets/icon.png"
+                        src="icon.png"
                         alt="Logo"
                         width="30"
                         height="30"
@@ -47,11 +47,11 @@ export default function Navbar() {
                                 Projects
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="citale">Citale Website Project</a></li>
-                                <li><a className="dropdown-item" href="ds542">DS542: Deep Learning Project</a></li>
-                                <li><a className="dropdown-item" href="ds598">DS598: Azure Big Data Project</a></li>
-                                <li><a className="dropdown-item" href="ds701">DS701: Data Science Project</a></li>
-                                <li><a className="dropdown-item" href="undergradThesis">Undergrad Thesis</a></li>
+                                <li><a className="dropdown-item" href="/citale">Citale Website Project</a></li>
+                                <li><a className="dropdown-item" href="/ds542">DS542: Deep Learning Project</a></li>
+                                <li><a className="dropdown-item" href="/ds598">DS598: Azure Big Data Project</a></li>
+                                <li><a className="dropdown-item" href="/ds701">DS701: Data Science Project</a></li>
+                                <li><a className="dropdown-item" href="/undergradThesis">Undergrad Thesis</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">
